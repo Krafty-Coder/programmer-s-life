@@ -1,7 +1,28 @@
-class Person:
+class Programmer:
+     def __init__(self, name="Peter", age='20'):
+          self.name = name
+          self.age = age
 
-    def __init__(self, first_name, last_name, year_of_birth, gender):
-        self.first_name = first_name
-        self.last_name = last_name
-        self. year_of_birth = year_of_birth
-        self.gender = gender
+     def set_name(self):
+          name = input("Name? :")
+          self.name = name
+
+     def set_age(self):
+          age = input("Age? :")
+          self.age = age
+
+     def get_name(self):
+          print(name)
+
+     def get_age(self):
+          print(age)
+
+def main():
+     name = Programmer()
+     name.set_name()
+     name.set_age()
+     print(name.get_name())
+     print(name.get_age())
+
+if __name__ == "__main__":
+     main()
