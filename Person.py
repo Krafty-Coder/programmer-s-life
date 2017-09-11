@@ -12,10 +12,10 @@ class Programmer:
           self.age = age
 
      def get_name(self):
-          print(name)
+          return name
 
      def get_age(self):
-          print(age)
+          return age
 
 def main():
      name = Programmer()
