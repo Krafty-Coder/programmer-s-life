@@ -1,4 +1,9 @@
-"""Onehunga Pizzas phone orders"""
+"""Programmer Pizzas phone orders"""
+"""max credits and full help and code from
+https://codereview.stackexchange.com/questions/159588/pizza-ordering-program
+
+heister :: me :-)
+"""
 
 import re
 import sys
@@ -10,18 +15,18 @@ MAX_PIZZAS = 5
 DELIVERY_CHARGE = 3.00
 # list of dictionaries (pizzas) with name and price
 PIZZAS_AVAILABLE = (
-    {"name": "Hawaiian",             "price": 8.5},
-    {"name": "Meat Lovers",          "price": 8.5},
-    {"name": "Pepperoni",            "price": 8.5},
-    {"name": "Ham & Cheese",         "price": 8.5},
-    {"name": "Classic Cheese",       "price": 8.5},
-    {"name": "Veg Hot 'n' Spicy",    "price": 8.5},
-    {"name": "Beef & Onion",         "price": 8.5},
-    {"name": "Seafood Deluxe",       "price": 13.5},
-    {"name": "Summer Shrimp",        "price": 13.5},
-    {"name": "BBQ Bacon & Mushroom", "price": 13.5},
-    {"name": "BBQ Hawaiian",         "price": 13.5},
-    {"name": "Italiano",             "price": 13.5},
+    {"name": "Hawaiian",             "price": 850},
+    {"name": "Meat Lovers",          "price": 850},
+    {"name": "Pepperoni",            "price": 850},
+    {"name": "Ham & Cheese",         "price": 850},
+    {"name": "Classic Cheese",       "price": 850},
+    {"name": "Veg Hot 'n' Spicy",    "price": 850},
+    {"name": "Beef & Onion",         "price": 850},
+    {"name": "Seafood Deluxe",       "price": 1350},
+    {"name": "Summer Shrimp",        "price": 1350},
+    {"name": "BBQ Bacon & Mushroom", "price": 1350},
+    {"name": "BBQ Hawaiian",         "price": 1350},
+    {"name": "Italiano",             "price": 1350},
 )
 # END CONFIG #
 
@@ -239,3 +244,10 @@ if __name__ == "builtins": # for repl.it
                 print_order(order)
                 if i == len(orders) - 1:
                     print("-" * 58)
+
+                    
+                    
+                    
+                    
+              
+           
